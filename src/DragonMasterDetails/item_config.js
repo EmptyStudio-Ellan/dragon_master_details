@@ -3,7 +3,7 @@ export const items = [
     {
         "name": "驯龙口哨",
         "identifier": "dragon_taming_whistle",
-        "description": "能够控制龙的行为,包括跟随、坐下、召唤"
+        "description": "能够控制龙的行为,包括跟随、坐下、召唤.可以装于副手."
     },
     {
         "name": "鳗鱼",
@@ -48,12 +48,12 @@ export const items = [
     {
         "name": "隐匿斗篷",
         "identifier": "cloak_of_invisibility",
-        "description": "在玩家不主动攻击时赋予玩家隐形能力."
+        "description": "在玩家不主动攻击时赋予玩家隐形能力.可以装于副手."
     },
     {
         "name": "光之晶体",
         "identifier": "crystal_of_light",
-        "description": "作为强大的光源,带在身上可作为移动光源."
+        "description": "作为强大的光源,带在身上可作为移动光源.可以装于副手."
     },
     {
         "name": "复活药水",
