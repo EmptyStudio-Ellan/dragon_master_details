@@ -2,6 +2,7 @@
 export const dragons = [
   {
     name: '殒命尖刺',
+    mob_show:require('./DragonImage/Deadly_nadder.png'),
     description: '殒命尖刺是一种极为自负且具有侵略性的利刺纲龙，其敏锐的嗅觉弥补了鼻前视野盲区的缺点. 它们是龙族中最美丽的龙之一，然而同时也是最为致命的龙.',
     habitat: '丛林、竹林、热带草原、恶地高原',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -20,12 +21,14 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '850.0 - 1150.0',
     stealthRange: '10.625 - 14.375',
+    GrowthFactor: '65.08 - 88.05',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03, 熟鸡肉: 0.1',
     dropItems: '纳德体液、纳德刺',
     tamingConditions: '喂食生鳕鱼、生鲑鱼、热带鱼、浆果，尤其喜欢烤鸡肉'
   },
   {
     name: '鬼亡钳',
+    mob_show:require('./DragonImage/Deathgripper.png'),
     description: '鬼亡钳是一种可怕的生物，它长着突出的獠牙、巨大的钳子和有毒的尾巴. 鬼亡钳常常像野狗一样聚群出没，十分享受猎食的过程，因此应该尽量避免与它们接触.',
     habitat: '山地、山峰、热带草原、热带高原、恶地高原',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -44,12 +47,14 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '637.5 - 862.5',
     stealthRange: '10.625 - 14.375',
+    GrowthFactor: '72.94 - 98.69',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03, 发酵蜘蛛眼: 0.1',
     dropItems: '钳夹毒液',
     tamingConditions: '喂食生牛肉、生猪排、生羊肉、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢发酵蜘蛛眼\n不可以穿装备,拿武器,需要潜行,否则龙有可能会攻击你哦.'
   },
   {
     name: '伦克龙',
+    mob_show:require('./DragonImage/Gronckle.png'),
     description: '伦克龙是巨石级的龙，也是维京人所知最坚韧（最慢）的龙之一.',
     habitat: '山地、山峰、热带草原、热带高原、恶地高原、森林、丘陵、针叶林、樱花树林',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -68,6 +73,7 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '1062.5 - 1437.5',
     stealthRange: '5.312 - 7.187',
+    GrowthFactor: '63.59 - 86.03',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03, 铜块: 0.1, 石英块: 0.1',
     dropItems: '葛伦科铁块、重质鳞片',
     tamingConditions: '喂食生牛肉、生猪排、生羊肉、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢铜块及石英块',
@@ -75,6 +81,7 @@ export const dragons = [
   },
   {
     name: '奇幻双重龙',
+    mob_show:require('./DragonImage/Hideous_zippleback.png'),
     description: '奇幻双重龙是一种拥有两个脑袋的巨型奇幻纲龙类，同时也是狡猾且热忠于出其不意的动物.',
     habitat: '沼泽、森林、丘陵、樱花树林',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -93,12 +100,14 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '850.0 - 1150.0',
     stealthRange: '19.125 - 25.875',
+    GrowthFactor: '50.4 - 68.19',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03, 发酵蜘蛛眼: 0.1',
     dropItems: '毒气精华、雷电精华、隐匿烟幕、双难鳞片',
     tamingConditions: '喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢发酵蜘蛛眼'
   },
   {
-    name: '光煞',
+    name: '光霓',
+    mob_show:require('./DragonImage/Light_fury.png'),
     description: '她十分罕见、难以获得而且充满野性.',
     habitat: '封冻深海、平原、山地、雪山、积雪山坡、冻河、冻洋、冻原、积雪针叶林、冰封山峰、雪林',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -117,12 +126,14 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '850.0 - 1150.0',
     stealthRange: '19.125 - 25.875',
+    GrowthFactor: '86.42 - 116.92',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.1, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03',
     dropItems: '隐匿斗篷、纯净之心鳞片',
     tamingConditions: '需要玩家带有夜视buff，喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢热带鱼\n不可以穿装备,拿武器,需要潜行,否则龙有可能会攻击你哦.'
   },
   {
     name: '嗜火狂舞',
+    mob_show:require('./DragonImage/Monstrous_nightmare.png'),
     description: '没有一条龙比嗜火狂舞更凶猛，更可怕.这条巨龙有一条长长的蛇形脖子和尾巴，上面覆盖着红色的鳞片和长长的尖刺.它巨大的头和嘴可以吞下整个维京人. 它很有攻击性，决不会逃避战斗.',
     habitat: '森林、丘陵、针叶林、丘陵、山地、樱花树林',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -141,12 +152,14 @@ export const dragons = [
     maxSkillStorageRange: '10.625 - 14.375',
     carryingRange: '743.75 - 1006.25',
     stealthRange: '9.562 - 12.937',
+    GrowthFactor: '74.11 - 100.26',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03, 岩浆膏: 0.1',
     dropItems: '噩梦火腺、火焰脊椎、梦境鳞片',
     tamingConditions: '喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢岩浆膏\n不可以穿装备,拿武器,需要潜行,否则龙有可能会攻击你哦.'
   },
   {
     name: '御风龙',
+    mob_show:require('./DragonImage/Stormcutter.png'),
     description: '御风龙以较大的体型以及两对翅膀而闻名.它们聪颖，骄傲，自信，但也十分亲和友好，它们对一切事物有着闯劲与好奇心.',
     habitat: '森林、丘陵、针叶林、丛林、竹林、樱花树林',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -165,12 +178,14 @@ export const dragons = [
     maxSkillStorageRange: '8.5 - 11.5',
     carryingRange: '425.0 - 575.0',
     stealthRange: '13.812 - 18.688',
+    GrowthFactor: '52.16 - 70.57',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.1, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03',
     dropItems: '风切羽毛、狂风之心',
     tamingConditions: '喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢热带鱼'
   },
   {
-    name: '夜煞',
+    name: '影煞',
+    mob_show:require('./DragonImage/Night_fury.png'),
     description: '闪电和死神的邪恶后裔.永远不要让这种龙发现你.你唯一的机会，躲起来并祈祷它没有发现你. 影煞是已知的速度最快、最聪明、最珍贵的龙种.',
     habitat: '山地、山峰、热带草原、热带高原、恶地高原',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -189,12 +204,14 @@ export const dragons = [
     maxSkillStorageRange: '6.375 - 8.625',
     carryingRange: '531.25 - 718.75',
     stealthRange: '23.375 - 31.625',
+    GrowthFactor: '85.64 - 115.86',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.1, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03',
     dropItems: '夜焰等离子、影翼膜',
     tamingConditions: '需要玩家带有夜视buff，喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢热带鱼\n不可以穿装备,拿武器,需要潜行,否则龙有可能会攻击你哦.'
   },
   {
-    name: '恐怖龙',
+    name: '可爱龙',
+    mob_show:require('./DragonImage/Terrible_terror.png'),
     description: '如果在龙的世界中有恐惧的存在，那必然当属可爱龙.他们体型虽小，能力却被远远低估，如同顽皮的小狗，发出很大的杂噪音，又如同海鸥一样极为烦人.',
     habitat: '森林、丘陵、针叶林、山地、丛林、竹林、樱花树林、沙滩',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -213,6 +230,7 @@ export const dragons = [
     maxSkillStorageRange: '10.625 - 14.375',
     carryingRange: '318.75 - 431.25',
     stealthRange: '12.75 - 17.25',
+    GrowthFactor: '49.43 - 66.9',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.1, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03',
     dropItems: '恐怖之焰',
     tamingConditions: '喂食生牛肉、生羊肉、生猪排、生鳕鱼、生鲑鱼、热带鱼，尤其喜欢热带鱼',
@@ -220,6 +238,7 @@ export const dragons = [
   },
   {
     name: '红女王',
+    mob_show:require('./DragonImage/Red_death.png'),
     description: '这个举世无双的大怪物，几乎是最凶狠的一种龙.传说她已经活了两千年，在她死前，会产下三千枚蛋，孵化出的幼崽会相互攻击，最后只有一个能够赢得竞争并活下来. 从某种程度上讲，红女王是龙族这个大族群的“女王”.',
     habitat: '祭坛召唤、丢入32个钻石、32个黑暗水晶、16个彩虹水晶',
     rideable: '是 , 只有装备鞍才可以控制哦',
@@ -238,6 +257,7 @@ export const dragons = [
     maxSkillStorageRange: '106.375 - 108.625',
     carryingRange: '1400.0 - 1600.0',
     stealthRange: '0',
+    GrowthFactor: '124.2 - 169.17',
     tamingProgress: '牛肉: 0.01, 熟羊肉: 0.03, 鳕鱼: 0.01, 兔肉: 0.01, 热带鱼: 0.01, 熟牛肉: 0.03, 熟三文鱼: 0.03, 羊肉: 0.01, 熟猪排: 0.03, 面包: 0.05, 三文鱼: 0.01, 熟鳕鱼: 0.03, 猪排: 0.01, 熟兔肉: 0.03',
     dropItems: '神秘',
     tamingConditions: '需要祭坛召唤，击败且成功孵化龙蛋后，要在幼年时期进行喂养,喂食生牛肉、生猪排、生羊肉、生鳕鱼、生鲑鱼、热带鱼\n不可以穿装备,拿武器,需要潜行,否则龙有可能会攻击你哦.'

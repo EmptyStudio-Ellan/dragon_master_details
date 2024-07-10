@@ -4,43 +4,43 @@ export const materials = [
         "name": "毒气精华",
         "identifier": "poison_essence",
         "description": "用于制作魔法物品或者给武器附魔，增加战斗中的策略性。",
-        "get_function": "击败双头龙或与商人交易."
+        "get_function": "击败奇幻双重龙或与商人交易."
     },
     {
         "name": "雷电精华",
         "identifier": "lightning_essence",
         "description": "用于制作魔法物品或者给武器附魔，增加战斗中的策略性。",
-        "get_function": "击败双头龙或与商人交易."
+        "get_function": "击败奇幻双重龙或与商人交易."
     },
     {
         "name": "双难鳞片",
         "identifier": "double_difficulty_scales",
         "description": "制作防御装备，提供对两种毒气伤害和雷电的高度抵抗力。",
-        "get_function": "击败双头龙或与商人交易."
+        "get_function": "击败奇幻双重龙或与商人交易."
     },
     {
         "name": "纯净之心鳞片",
         "identifier": "pure_heart_scales",
         "description": "用于制作能够净化一切负面效果以及给予大量正面效果的材料。",
-        "get_function": "击败光煞."
+        "get_function": "击败光霓."
     },
     {
         "name": "夜焰等离子",
         "identifier": "night_flame_plasma",
         "description": "制作高能量武器或装备，能够在战斗中造成大量等离子伤害。",
-        "get_function": "击败夜煞或与商人交易."
+        "get_function": "击败影煞或与商人交易."
     },
     {
         "name": "影翼膜",
         "identifier": "shadow_wing_membrane",
         "description": "用于制作提高隐秘性或夜间活动能力的装备，如增强夜视的头盔。",
-        "get_function": "击败夜煞或与商人交易."
+        "get_function": "击败影煞或与商人交易."
     },
     {
         "name": "恐怖之焰",
         "identifier": "flame_of_terror",
         "description": "制造能够释放恐怖效果，使敌人退缩或混乱的武器。",
-        "get_function": "击败恐怖龙."
+        "get_function": "击败可爱龙."
     },
     {
         "name": "风切羽毛",

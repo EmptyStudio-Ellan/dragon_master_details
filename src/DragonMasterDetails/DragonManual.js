@@ -85,6 +85,13 @@ const ZoomedImage = styled(animated.img)`
   cursor: grab;
 `;
 
+const DragonImage = styled(animated.img)`
+max-width: 90%;
+max-height: 90%;
+margin: 20px auto;
+display: block;
+`;
+
 const CloseButton = styled.button`
   position: absolute;
   top: 20px;
@@ -163,6 +170,7 @@ const DragonManual = () => {
       ) : (
         <DragonSection>
           <DragonHeader>{selectedDragon.name}</DragonHeader>
+          <DragonImage src={selectedDragon.mob_show} alt="Dragon Image" />
           <Table>
             <tbody>
               <tr><Th>中文名称</Th><Td>{selectedDragon.name}</Td></tr>
@@ -184,6 +192,8 @@ const DragonManual = () => {
               <tr><Th>最大技能储存次数范围</Th><Td>{selectedDragon.maxSkillStorageRange}</Td></tr>
               <tr><Th>负重范围</Th><Td>{selectedDragon.carryingRange}</Td></tr>
               <tr><Th>隐秘性范围</Th><Td>{selectedDragon.stealthRange}</Td></tr>
+              <tr><Th>成长因子</Th><Td>{selectedDragon.GrowthFactor}</Td></tr>
+              <tr><Th>成长因子解释</Th><Td>由攻击力、速度、防御力、生命值、耐力、抗性、灵活性、攻击范围进行加权计算得出,越高代表能力越强, 但每个生物的技能与特性不一致, 所以不代表最终强度.</Td></tr>
               <tr><Th>食物驯服进度</Th><Td>{selectedDragon.tamingProgress}</Td></tr>
               <tr><Th>掉落物</Th><Td>{selectedDragon.dropItems}</Td></tr>
               <tr><Th>驯养条件</Th><Td>{selectedDragon.tamingConditions}</Td></tr>

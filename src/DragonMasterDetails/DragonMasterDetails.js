@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import DragonManual from './DragonManual';
 import DragonEgg from './DragonEgg';
 import NPC from './NPC';
-import Recipe from './Recipe';
+// import Recipe from './Recipe';
 import Equipment from './Equipment';
 import Weapon from './Weapon';
 import Material from './Material';
@@ -21,9 +21,9 @@ const Container = styled.div`
   border-radius: 10px;  // 倒角
 `;
 
-const Title = styled.h1`
-  text-align: center;
-`;
+// const Title = styled.h1`
+//   text-align: center;
+// `;
 
 const Nav = styled.nav`
   display: flex;
