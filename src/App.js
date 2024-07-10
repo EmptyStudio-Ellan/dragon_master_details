@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home/Home';
+import About from './About/About';
+import Contact from './Contact/Contact';
+// import MinecraftTools from './MinecraftTools/MinecraftTools';
+import DragonMasterDetails from './DragonMasterDetails/DragonMasterDetails';
+import NavBar from './NavBar/NavBar';
+import styled from 'styled-components';
+
+const AppContainer = styled.div`
+  padding: 5% 5%;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<DragonMasterDetails />} />
+          {/* <Route path="/about" element={<About />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="/minecrafttools" element={<MinecraftTools />} /> */}
+          {/* <Route path="/dragon_master_details" element={<DragonMasterDetails />} /> */}
+        </Routes>
+      </Router>
+    </AppContainer>
   );
 }
 
