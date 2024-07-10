@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Home/Home';
-import About from './About/About';
-import Contact from './Contact/Contact';
+// import Home from './Home/Home';
+// import About from './About/About';
+// import Contact from './Contact/Contact';
 // import MinecraftTools from './MinecraftTools/MinecraftTools';
 import DragonMasterDetails from './DragonMasterDetails/DragonMasterDetails';
-import NavBar from './NavBar/NavBar';
+// import NavBar from './NavBar/NavBar';
 import styled from 'styled-components';
 
 const AppContainer = styled.div`
@@ -16,7 +16,7 @@ function App() {
   return (
     <AppContainer>
       <Router>
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes>
           <Route path="/" element={<DragonMasterDetails />} />
           {/* <Route path="/about" element={<About />} /> */}

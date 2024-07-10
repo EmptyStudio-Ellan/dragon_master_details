@@ -1,6 +1,6 @@
 // NavBar.js
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+// import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 
 // 创建 styled components
@@ -40,8 +40,8 @@ const NavBottom = styled.nav`
 `;
 
 function NavBar() {
-  const location = useLocation();
-  const pathname = location.pathname;
+  // const location = useLocation();
+  // const pathname = location.pathname;
 
   return (
     <div>

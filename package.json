@@ -18,13 +18,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:cloudflare": "CI=false react-scripts build",
-    "predeploy": "npm run build:cloudflare",
+    "build:cloudflare": "PUBLIC_URL=/ react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": ".",
+  "homepage": "https://https://emptystudio-ellan.github.io/dragon_master_details",
   "eslintConfig": {
     "extends": [
       "react-app",
