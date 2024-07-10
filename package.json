@@ -18,9 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:github": "PUBLIC_URL=/dragon_master_details npm run build",
-    "build:cloudflare": "PUBLIC_URL=. npm run build",
-    "predeploy": "npm run build:github",
+    "build:cloudflare": "react-scripts build",
+    "predeploy": "npm run build:cloudflare",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1"
   }
 }
