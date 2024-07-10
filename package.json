@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": ".",
+  "homepage": "https://emptystudio-ellan.github.io/dragon_master_details",
   "eslintConfig": {
     "extends": [
       "react-app",
