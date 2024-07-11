@@ -64,5 +64,10 @@ export const items = [
         "name": "忘却药水",
         "identifier": "wash_some_medicine",
         "description": "能够让生物忘却一切,重新开始."
+    },
+    {
+        "name": "生成红女王祭坛",
+        "identifier": "red_death_summon_place_item",
+        "description": "隐含着及其强大的力量,能够生成召唤恐怖生物的祭坛!"
     }
 ];
