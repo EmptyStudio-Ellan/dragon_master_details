@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "https://emptystudio-ellan.github.io/dragon_master_details/static/css/main.e6c13ad2.css",
+    "main.js": "https://emptystudio-ellan.github.io/dragon_master_details/static/js/main.c29ff0e6.js",
+    "static/js/453.a18bf01c.chunk.js": "https://emptystudio-ellan.github.io/dragon_master_details/static/js/453.a18bf01c.chunk.js",
+    "static/media/Red_death.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Red_death.368d14bb6482349ef644.png",
+    "static/media/Monstrous_nightmare.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Monstrous_nightmare.84fee8ef16e42cb8b895.png",
+    "static/media/Deadly_nadder.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Deadly_nadder.aa50a8458368ce61ea59.png",
+    "static/media/Stormcutter.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Stormcutter.e57b243f0d09f8a250dc.png",
+    "static/media/Deathgripper.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Deathgripper.44efd58ff6dc17fdb52f.png",
+    "static/media/Hideous_zippleback.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Hideous_zippleback.40aac72bf427804b7320.png",
+    "static/media/Gronckle.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Gronckle.dcd7ce31d918195d08bf.png",
+    "static/media/Light_fury.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Light_fury.6c3d41ab899d5f0de9c8.png",
+    "static/media/Night_fury.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Night_fury.4cb7c4ce13f1a74d4ee7.png",
+    "static/media/Terrible_terror.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/Terrible_terror.2c4e44f20bf1de3a432f.png",
+    "static/media/all-dragons-comparison.png": "https://emptystudio-ellan.github.io/dragon_master_details/static/media/all-dragons-comparison.4a4f47eaf8dcdc8110f1.png",
+    "index.html": "https://emptystudio-ellan.github.io/dragon_master_details/index.html",
+    "main.e6c13ad2.css.map": "https://emptystudio-ellan.github.io/dragon_master_details/static/css/main.e6c13ad2.css.map",
+    "main.c29ff0e6.js.map": "https://emptystudio-ellan.github.io/dragon_master_details/static/js/main.c29ff0e6.js.map",
+    "453.a18bf01c.chunk.js.map": "https://emptystudio-ellan.github.io/dragon_master_details/static/js/453.a18bf01c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c29ff0e6.js"
+  ]
+}
